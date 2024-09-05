@@ -1,0 +1,3 @@
+{
+  "AppFromDataMetaDataIdsToEntityNameMappings": "{\"%DataSourceName.AFD%\":\"Accounts\",\"%DataSourceValue.AFD%\":\"[@Accounts]\",\"%SortDescending.AFD%\":\"SortDescending1\",\"%HostedFormScreen.AFD%\":\"FormScreen\",\"%BrowseContainer.ID%\":\"BrowseGallery1\",\"%DetailEditContainer.ID%\":\"EditForm1\",\"%HostContainer.ID%\":\"ModelDrivenFormIntegration\"}"
+}

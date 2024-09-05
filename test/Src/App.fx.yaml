@@ -1,0 +1,20 @@
+App As appinfo:
+    BackEnabled: =true
+    Theme: =PowerAppsTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+
+    ModelDrivenFormIntegration As hostControl.ModelDrivenFormHostControlVariant:
+        DataSource: =[@Accounts]
+        OnCancel: =false
+        OnDataRefresh: =Refresh([@Accounts])
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+
