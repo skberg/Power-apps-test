@@ -1,0 +1,17 @@
+{
+  "Themes": [
+    {
+      "EntityName": "PowerAppsTheme",
+      "ThemeName": "PowerAppsTheme"
+    },
+    {
+      "BasePaletteColor": "#f0833c",
+      "EntityName": "Experis",
+      "Font": "Open Sans",
+      "HueTorsion": 0,
+      "ThemeName": "Experis",
+      "ThemePrimaryColorLocked": false,
+      "Vibrancy": 0
+    }
+  ]
+}

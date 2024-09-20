@@ -1,0 +1,98 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "cr42e_tipexes",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "cr42e_tipex",
+    "MaxGetRowsCount": 500,
+    "Name": "TipEXES",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "cr42e_case": "Case",
+      "cr42e_contactperson": "ContactPerson",
+      "cr42e_customername": "CustomerName",
+      "cr42e_id": "Heding",
+      "cr42e_tipex_AsyncOperations": "System Jobs",
+      "cr42e_tipex_BulkDeleteFailures": "Bulk Delete Failures",
+      "cr42e_tipex_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "cr42e_tipex_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "cr42e_tipex_ProcessSession": "Process Sessions",
+      "cr42e_tipex_SyncErrors": "Sync Errors",
+      "cr42e_tipexid": "TipEX",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "TipEXES",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "TipEXES (Views)",
+    "Name": "_cr42e_tipex_views",
+    "RelatedEntityName": "TipEXES",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "1f27ceb1-2b3f-430d-8953-11d7765dd277": "TipEX Associated View",
+      "61a4e57e-7143-4cd3-9dbf-b7d7998fe292": "TipEX Lookup View",
+      "8d82ec58-6a53-45d6-9fc6-25f9198d6eb6": "TipEX Advanced Find View",
+      "c87a8072-ddf5-418d-ae52-5ea5d74d3fc5": "Inactive TipEXES",
+      "db8cb392-744e-429f-b9ab-adf1162b014d": "Active TipEXES"
+    }
+  },
+  {
+    "DisplayName": "Status (TipEXES)",
+    "Name": "cr42e_tipex_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "TipEXES"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "TipEXES",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (TipEXES)",
+    "Name": "cr42e_tipex_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "TipEXES"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "TipEXES",
+    "Type": "OptionSetInfo"
+  }
+]
